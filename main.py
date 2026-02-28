@@ -4,7 +4,7 @@ import random
 
 TOKEN = "8791724105:AAHJo9_7jrL-2eCwvp0kVHURzvSuZ3wUoaE"
 
-# Счётчик сообщений в чате (глобальный, но на бесплатке Render перезапустится — ну и похуй)
+# Счётчик сообщений в чате (глобальный, на бесплатке перезапустится — похуй)
 message_count = 0
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
